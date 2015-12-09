@@ -43,7 +43,7 @@ public class Visualizar extends Activity {
                 lista =  montaListaAtividades(nome);
             }catch(Exception e){
                 Toast.makeText(getApplicationContext(),
-                        "Nao temos atividades!!!!!!", Toast.LENGTH_SHORT).show();
+                        "Não temos atividades!!!!!!", Toast.LENGTH_SHORT).show();
             }
             if (lista!=null && !lista.isEmpty()){
 
@@ -80,7 +80,7 @@ public class Visualizar extends Activity {
 
             }else{
                 Toast.makeText(getApplicationContext(),
-                      "Nao temos atividades!!!!!!", Toast.LENGTH_SHORT).show();
+                      "Não temos atividades!!!!!!", Toast.LENGTH_SHORT).show();
             }
 
 
@@ -130,8 +130,8 @@ public class Visualizar extends Activity {
             }
             db.close();
          }catch (Exception e){
-            Toast.makeText(getApplicationContext(),
-                    e.getMessage(), Toast.LENGTH_SHORT).show();
+           // Toast.makeText(getApplicationContext(),
+            //        e.getMessage(), Toast.LENGTH_SHORT).show();
             return null;
         }
         return listaAtividade;
