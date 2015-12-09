@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EuGerente</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuario</string>
+    <string name="title_activity_inicial">Inicial</string>
+    <string name="title_activity_cadastro_atividade">CadastroAtividadeActivity</string>
+    <string name="title_activity_visualizar">Atividades Cadastradas</string>
+</resources>
