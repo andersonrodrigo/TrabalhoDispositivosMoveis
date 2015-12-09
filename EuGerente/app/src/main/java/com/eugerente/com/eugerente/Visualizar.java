@@ -38,7 +38,13 @@ public class Visualizar extends Activity {
 
 
          //   login.setText("Usuário: "+nome); /**
-          List<Atividade> lista = montaListaAtividades(nome);
+          List<Atividade> lista = null;
+            try {
+                lista =  montaListaAtividades(nome);
+            }catch(Exception e){
+                Toast.makeText(getApplicationContext(),
+                        "Nao temos atividades!!!!!!", Toast.LENGTH_SHORT).show();
+            }
             if (lista!=null && !lista.isEmpty()){
 
                 String[] atividades = new String[lista.size()];
